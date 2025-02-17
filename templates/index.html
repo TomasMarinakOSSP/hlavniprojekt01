@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block title %}Domů - Herní Blog{% endblock %}
+
+{% block content %}
+    <h2>Nejnovější články</h2>
+    <img src="{{ url_for('static', filename='images/game1.jpg') }}" alt="Herní obrázek 1">
+    <img src="{{ url_for('static', filename='images/game2.jpg') }}" alt="Herní obrázek 2">
+    <p>Vítejte na herním blogu! Najdete zde nejnovější recenze, novinky a tipy ze světa her.</p>
+{% endblock %}
