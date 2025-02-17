@@ -4,7 +4,12 @@
 
 {% block content %}
     <h2>Nejnovější články</h2>
-    <img src="{{ url_for('static', filename='images/game1.jpg') }}" alt="Herní obrázek 1">
+<div class="images">
+
+     <img src="{{ url_for('static', filename='images/game1.jpg') }}" alt="Herní obrázek 1">
     <img src="{{ url_for('static', filename='images/game2.jpg') }}" alt="Herní obrázek 2">
+
+</div>
+
     <p>Vítejte na herním blogu! Najdete zde nejnovější recenze, novinky a tipy ze světa her.</p>
 {% endblock %}
